@@ -48,7 +48,7 @@
     // Set-up code here.
     server = [[HTTPServer alloc] init];
     [server setType:@"_http._tcp."];
-    [server setConnectionClass:[MyHTTPConnection class]];
+    [server setConnectionClass:[AuthenticatedConnection class]];
     [self setHttpServer:server];
     if([httpServer start:&error]) {
         NSLog(@"Started HTTP Server on port %hu", [httpServer listeningPort]);
