@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2C9E321638EEBC00B3B7F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E311638EEBC00B3B7F2 /* Foundation.framework */; };
+		1B2C9E411638EEBD00B3B7F2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E401638EEBD00B3B7F2 /* SenTestingKit.framework */; };
+		1B2C9E441638EEBD00B3B7F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E311638EEBC00B3B7F2 /* Foundation.framework */; };
+		1B2C9E471638EEBD00B3B7F2 /* libNSURLRequest+BasicAuthentication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E2E1638EEBC00B3B7F2 /* libNSURLRequest+BasicAuthentication.a */; };
+		1B2C9E4D1638EEBD00B3B7F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C9E4B1638EEBD00B3B7F2 /* InfoPlist.strings */; };
+		1B2C9E501638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C9E4F1638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.m */; };
+		1B2C9E5B1638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C9E5A1638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.m */; };
+		1B2C9E5D1638EF8700B3B7F2 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E5C1638EF8700B3B7F2 /* libresolv.dylib */; };
+		1B2C9E5E1638EF9B00B3B7F2 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E5C1638EF8700B3B7F2 /* libresolv.dylib */; };
+		1B2C9E601638EFAD00B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2C9E591638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2C9E711638F20500B3B7F2 /* libUnitTestHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E6E1638F1F900B3B7F2 /* libUnitTestHTTPServer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B2C9E451638EEBD00B3B7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B2C9E251638EEBC00B3B7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B2C9E2D1638EEBC00B3B7F2;
+			remoteInfo = "NSURLRequest+BasicAuthentication";
+		};
+		1B2C9E6D1638F1F900B3B7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B2C9E661638F1F900B3B7F2 /* UnitTestHTTPServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B8F5F771581C577009542C8;
+			remoteInfo = UnitTestHTTPServer;
+		};
+		1B2C9E6F1638F20100B3B7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B2C9E661638F1F900B3B7F2 /* UnitTestHTTPServer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8F5F761581C577009542C8;
+			remoteInfo = UnitTestHTTPServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B2C9E2C1638EEBC00B3B7F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B2C9E2E1638EEBC00B3B7F2 /* libNSURLRequest+BasicAuthentication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNSURLRequest+BasicAuthentication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2C9E311638EEBC00B3B7F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B2C9E351638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+BasicAuthentication-Prefix.pch"; sourceTree = "<group>"; };
+		1B2C9E3F1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSURLRequest+BasicAuthenticationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2C9E401638EEBD00B3B7F2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B2C9E4A1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSURLRequest+BasicAuthenticationTests-Info.plist"; sourceTree = "<group>"; };
+		1B2C9E4C1638EEBD00B3B7F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B2C9E4E1638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLRequest_BasicAuthenticationTests.h; sourceTree = "<group>"; };
+		1B2C9E4F1638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLRequest_BasicAuthenticationTests.m; sourceTree = "<group>"; };
+		1B2C9E591638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+BasicAuthentication.h"; sourceTree = "<group>"; };
+		1B2C9E5A1638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+BasicAuthentication.m"; sourceTree = "<group>"; };
+		1B2C9E5C1638EF8700B3B7F2 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		1B2C9E661638F1F900B3B7F2 /* UnitTestHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UnitTestHTTPServer.xcodeproj; path = Modules/UnitTestHTTPServer.xcodeproj; sourceTree = "<group>"; };
+		1B2C9E861638F61400B3B7F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1B2C9E871638F63500B3B7F2 /* NSURLRequest+BasicAuthentication.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "NSURLRequest+BasicAuthentication.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B2C9E2B1638EEBC00B3B7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C9E5D1638EF8700B3B7F2 /* libresolv.dylib in Frameworks */,
+				1B2C9E321638EEBC00B3B7F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2C9E3B1638EEBD00B3B7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C9E711638F20500B3B7F2 /* libUnitTestHTTPServer.a in Frameworks */,
+				1B2C9E5E1638EF9B00B3B7F2 /* libresolv.dylib in Frameworks */,
+				1B2C9E411638EEBD00B3B7F2 /* SenTestingKit.framework in Frameworks */,
+				1B2C9E441638EEBD00B3B7F2 /* Foundation.framework in Frameworks */,
+				1B2C9E471638EEBD00B3B7F2 /* libNSURLRequest+BasicAuthentication.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2C9E231638EEBC00B3B7F2 = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E861638F61400B3B7F2 /* README.md */,
+				1B2C9E331638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication */,
+				1B2C9E481638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests */,
+				1B2C9E641638F1E500B3B7F2 /* Modules */,
+				1B2C9E301638EEBC00B3B7F2 /* Frameworks */,
+				1B2C9E2F1638EEBC00B3B7F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B2C9E2F1638EEBC00B3B7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E2E1638EEBC00B3B7F2 /* libNSURLRequest+BasicAuthentication.a */,
+				1B2C9E3F1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2C9E301638EEBC00B3B7F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E5C1638EF8700B3B7F2 /* libresolv.dylib */,
+				1B2C9E311638EEBC00B3B7F2 /* Foundation.framework */,
+				1B2C9E401638EEBD00B3B7F2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B2C9E331638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E871638F63500B3B7F2 /* NSURLRequest+BasicAuthentication.xcconfig */,
+				1B2C9E591638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h */,
+				1B2C9E5A1638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.m */,
+				1B2C9E341638EEBC00B3B7F2 /* Supporting Files */,
+			);
+			path = "NSURLRequest+BasicAuthentication";
+			sourceTree = "<group>";
+		};
+		1B2C9E341638EEBC00B3B7F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E351638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B2C9E481638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E4E1638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.h */,
+				1B2C9E4F1638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.m */,
+				1B2C9E491638EEBD00B3B7F2 /* Supporting Files */,
+			);
+			path = "NSURLRequest+BasicAuthenticationTests";
+			sourceTree = "<group>";
+		};
+		1B2C9E491638EEBD00B3B7F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E4A1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests-Info.plist */,
+				1B2C9E4B1638EEBD00B3B7F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B2C9E641638F1E500B3B7F2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E661638F1F900B3B7F2 /* UnitTestHTTPServer.xcodeproj */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		1B2C9E671638F1F900B3B7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2C9E6E1638F1F900B3B7F2 /* libUnitTestHTTPServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B2C9E5F1638EFA700B3B7F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C9E601638EFAD00B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B2C9E2D1638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2C9E531638EEBD00B3B7F2 /* Build configuration list for PBXNativeTarget "NSURLRequest+BasicAuthentication" */;
+			buildPhases = (
+				1B2C9E2A1638EEBC00B3B7F2 /* Sources */,
+				1B2C9E2B1638EEBC00B3B7F2 /* Frameworks */,
+				1B2C9E2C1638EEBC00B3B7F2 /* CopyFiles */,
+				1B2C9E5F1638EFA700B3B7F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSURLRequest+BasicAuthentication";
+			productName = "NSURLRequest+BasicAuthentication";
+			productReference = 1B2C9E2E1638EEBC00B3B7F2 /* libNSURLRequest+BasicAuthentication.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1B2C9E3E1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2C9E561638EEBD00B3B7F2 /* Build configuration list for PBXNativeTarget "NSURLRequest+BasicAuthenticationTests" */;
+			buildPhases = (
+				1B2C9E3A1638EEBD00B3B7F2 /* Sources */,
+				1B2C9E3B1638EEBD00B3B7F2 /* Frameworks */,
+				1B2C9E3C1638EEBD00B3B7F2 /* Resources */,
+				1B2C9E3D1638EEBD00B3B7F2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B2C9E701638F20100B3B7F2 /* PBXTargetDependency */,
+				1B2C9E461638EEBD00B3B7F2 /* PBXTargetDependency */,
+			);
+			name = "NSURLRequest+BasicAuthenticationTests";
+			productName = "NSURLRequest+BasicAuthenticationTests";
+			productReference = 1B2C9E3F1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B2C9E251638EEBC00B3B7F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Dan Zinngrabe";
+			};
+			buildConfigurationList = 1B2C9E281638EEBC00B3B7F2 /* Build configuration list for PBXProject "NSURLRequest+BasicAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B2C9E231638EEBC00B3B7F2;
+			productRefGroup = 1B2C9E2F1638EEBC00B3B7F2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1B2C9E671638F1F900B3B7F2 /* Products */;
+					ProjectRef = 1B2C9E661638F1F900B3B7F2 /* UnitTestHTTPServer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1B2C9E2D1638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication */,
+				1B2C9E3E1638EEBD00B3B7F2 /* NSURLRequest+BasicAuthenticationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1B2C9E6E1638F1F900B3B7F2 /* libUnitTestHTTPServer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUnitTestHTTPServer.a;
+			remoteRef = 1B2C9E6D1638F1F900B3B7F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B2C9E3C1638EEBD00B3B7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C9E4D1638EEBD00B3B7F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B2C9E3D1638EEBD00B3B7F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B2C9E2A1638EEBC00B3B7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C9E5B1638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2C9E3A1638EEBD00B3B7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C9E501638EEBD00B3B7F2 /* NSURLRequest_BasicAuthenticationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B2C9E461638EEBD00B3B7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B2C9E2D1638EEBC00B3B7F2 /* NSURLRequest+BasicAuthentication */;
+			targetProxy = 1B2C9E451638EEBD00B3B7F2 /* PBXContainerItemProxy */;
+		};
+		1B2C9E701638F20100B3B7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnitTestHTTPServer;
+			targetProxy = 1B2C9E6F1638F20100B3B7F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B2C9E4B1638EEBD00B3B7F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2C9E4C1638EEBD00B3B7F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B2C9E511638EEBD00B3B7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B2C9E521638EEBD00B3B7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B2C9E541638EEBD00B3B7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2C9E871638F63500B3B7F2 /* NSURLRequest+BasicAuthentication.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/NSURLRequest_BasicAuthentication.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSURLRequest+BasicAuthentication/NSURLRequest+BasicAuthentication-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B2C9E551638EEBD00B3B7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2C9E871638F63500B3B7F2 /* NSURLRequest+BasicAuthentication.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/NSURLRequest_BasicAuthentication.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSURLRequest+BasicAuthentication/NSURLRequest+BasicAuthentication-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1B2C9E571638EEBD00B3B7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSURLRequest+BasicAuthentication/NSURLRequest+BasicAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "NSURLRequest+BasicAuthenticationTests/NSURLRequest+BasicAuthenticationTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1B2C9E581638EEBD00B3B7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSURLRequest+BasicAuthentication/NSURLRequest+BasicAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "NSURLRequest+BasicAuthenticationTests/NSURLRequest+BasicAuthenticationTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B2C9E281638EEBC00B3B7F2 /* Build configuration list for PBXProject "NSURLRequest+BasicAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2C9E511638EEBD00B3B7F2 /* Debug */,
+				1B2C9E521638EEBD00B3B7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2C9E531638EEBD00B3B7F2 /* Build configuration list for PBXNativeTarget "NSURLRequest+BasicAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2C9E541638EEBD00B3B7F2 /* Debug */,
+				1B2C9E551638EEBD00B3B7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2C9E561638EEBD00B3B7F2 /* Build configuration list for PBXNativeTarget "NSURLRequest+BasicAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2C9E571638EEBD00B3B7F2 /* Debug */,
+				1B2C9E581638EEBD00B3B7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B2C9E251638EEBC00B3B7F2 /* Project object */;
+}
