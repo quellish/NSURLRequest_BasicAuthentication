@@ -18,6 +18,9 @@
 		1B2C9E5E1638EF9B00B3B7F2 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E5C1638EF8700B3B7F2 /* libresolv.dylib */; };
 		1B2C9E601638EFAD00B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2C9E591638EEF200B3B7F2 /* NSMutableURLRequest+BasicAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B2C9E711638F20500B3B7F2 /* libUnitTestHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E6E1638F1F900B3B7F2 /* libUnitTestHTTPServer.a */; };
+		1B2C9E8D1638F92100B3B7F2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E8C1638F92100B3B7F2 /* CFNetwork.framework */; };
+		1B2C9E8F1638F92600B3B7F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E8E1638F92600B3B7F2 /* Security.framework */; };
+		1B2C9E911638F94C00B3B7F2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C9E901638F94C00B3B7F2 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		1B2C9E661638F1F900B3B7F2 /* UnitTestHTTPServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UnitTestHTTPServer.xcodeproj; path = Modules/UnitTestHTTPServer.xcodeproj; sourceTree = "<group>"; };
 		1B2C9E861638F61400B3B7F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1B2C9E871638F63500B3B7F2 /* NSURLRequest+BasicAuthentication.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "NSURLRequest+BasicAuthentication.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1B2C9E8C1638F92100B3B7F2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1B2C9E8E1638F92600B3B7F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1B2C9E901638F94C00B3B7F2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2C9E911638F94C00B3B7F2 /* libxml2.dylib in Frameworks */,
+				1B2C9E8F1638F92600B3B7F2 /* Security.framework in Frameworks */,
+				1B2C9E8D1638F92100B3B7F2 /* CFNetwork.framework in Frameworks */,
 				1B2C9E711638F20500B3B7F2 /* libUnitTestHTTPServer.a in Frameworks */,
 				1B2C9E5E1638EF9B00B3B7F2 /* libresolv.dylib in Frameworks */,
 				1B2C9E411638EEBD00B3B7F2 /* SenTestingKit.framework in Frameworks */,
@@ -124,6 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				1B2C9E5C1638EF8700B3B7F2 /* libresolv.dylib */,
+				1B2C9E901638F94C00B3B7F2 /* libxml2.dylib */,
+				1B2C9E8E1638F92600B3B7F2 /* Security.framework */,
+				1B2C9E8C1638F92100B3B7F2 /* CFNetwork.framework */,
 				1B2C9E311638EEBC00B3B7F2 /* Foundation.framework */,
 				1B2C9E401638EEBD00B3B7F2 /* SenTestingKit.framework */,
 			);
